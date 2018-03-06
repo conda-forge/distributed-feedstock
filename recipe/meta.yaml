@@ -29,6 +29,7 @@ requirements:
     - python
     - click >=6.6
     - cloudpickle >=0.2.2
+    - cytoolz >=0.7.4
     - dask-core >=0.17.0
     - futures  # [py2k]
     - msgpack-python
