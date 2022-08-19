@@ -22,12 +22,13 @@ requirements:
   host:
     - python >=3.8
     - pip
+    - dask-core {{ version }}
   run:
     - python >=3.8
     - click >=6.6
     - cloudpickle >=1.5.0
     - cytoolz >=0.8.2
-    - dask-core {{ version }}.*,!={{ version }}a.*
+    - {{ pin_compatible('dask-core', max_pin='x.x.x') }}
     - jinja2
     - locket >=1.0.0
     - msgpack-python >=0.6.0
