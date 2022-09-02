@@ -1,4 +1,4 @@
-{% set version = "2022.8.1" %}
+{% set version = "2022.9.0" %}
 
 
 package:
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/d/distributed/distributed-{{ version }}.tar.gz
-  sha256: 09ffd3433ba44b856320f8ec657f221af5207d99c9db6bb5101b14f4fca42f56
+  sha256: b915f05a059b5555bc07dea0cf057059f751e9e4e7fb55c54776383ca0e361bf
 
 build:
-  number: 2
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
