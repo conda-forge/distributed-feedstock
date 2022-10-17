@@ -62,6 +62,9 @@ test:
     - dask-scheduler --help
     - dask-ssh --help
     - dask-worker --help
+    - dask scheduler --help
+    - dask ssh --help
+    - dask worker --help
   requires:
     - pip
 
