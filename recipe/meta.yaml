@@ -10,13 +10,18 @@ source:
   sha256: dcfbc9c528bcd9e4f9686e673956a90172826395ac5b258039e580777d50782f
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
+    # Old style CLI
     - dask-scheduler = distributed.cli.dask_scheduler:main
     - dask-ssh = distributed.cli.dask_ssh:main
     - dask-worker = distributed.cli.dask_worker:main
+    # New CLI added in https://github.com/dask/distributed/pull/6735
+    - dask scheduler = distributed.cli.dask_scheduler:main
+    - dask ssh = distributed.cli.dask_ssh:main
+    - dask worker = distributed.cli.dask_worker:main
 
 requirements:
   host:
