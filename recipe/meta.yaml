@@ -1,4 +1,4 @@
-{% set version = "2022.11.0" %}
+{% set version = "2022.11.1" %}
 
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/d/distributed/distributed-{{ version }}.tar.gz
-  sha256: d5d520bb05ac41ee624191d108600a8c985e074d1c21803219e0f13ed935df78
+  sha256: ca89a7d56588b0a95b8fabe783541f514cbe22d5b62a2e4260849c75b4475cea
 
 build:
   number: 0
@@ -28,7 +28,7 @@ requirements:
     - python >=3.8
     - click >=7.0
     - cloudpickle >=1.5.0
-    - cytoolz >=0.8.2
+    - cytoolz >=0.10.0
     - {{ pin_compatible('dask-core', max_pin='x.x.x') }}
     - jinja2
     - locket >=1.0.0
@@ -38,7 +38,7 @@ requirements:
     - pyyaml
     - sortedcontainers !=2.0.0,!=2.0.1
     - tblib >=1.6.0
-    - toolz >=0.8.2
+    - toolz >=0.10.0
     - tornado >=6.0.3,<6.2
     - urllib3
     - zict >=0.1.3
