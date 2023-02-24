@@ -28,7 +28,7 @@ requirements:
     - python >=3.8
     - click >=7.0
     - cloudpickle >=1.5.0
-    - cytoolz >=0.10.0
+    - cytoolz >=0.10.1
     - {{ pin_compatible('dask-core', max_pin='x.x.x') }}
     - jinja2 >=2.10.3
     - locket >=1.0.0
