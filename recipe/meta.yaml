@@ -1,4 +1,4 @@
-{% set version = "2023.3.0" %}
+{% set version = "2023.3.1" %}
 
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/d/distributed/distributed-{{ version }}.tar.gz
-  sha256: d861846af558eaca0185bdca9de95a6504e8dc1402822c9e3f0692c71b7a78c6
+  sha256: 2551809869cd72d9957a10e1a6e5358371db31765ae6b1871541a0b7ce32090c
 
 build:
   number: 0
@@ -26,7 +26,7 @@ requirements:
     - dask-core {{ version }}
   run:
     - python >=3.8
-    - click >=7.0
+    - click >=8.0
     - cloudpickle >=1.5.0
     - cytoolz >=0.10.1
     - {{ pin_compatible('dask-core', max_pin='x.x.x') }}
