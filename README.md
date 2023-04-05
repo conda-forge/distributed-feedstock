@@ -1,11 +1,11 @@
-About distributed
-=================
+About distributed-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/distributed-feedstock/blob/main/LICENSE.txt)
 
 Home: https://distributed.dask.org
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/distributed-feedstock/blob/main/LICENSE.txt)
 
 Summary: Distributed scheduler for Dask
 
