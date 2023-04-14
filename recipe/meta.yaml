@@ -27,7 +27,7 @@ requirements:
     - pip
     - dask-core {{ dask_core_version }}
     - versioneer =0.28
-    - tomli # [py<311]
+    - tomli
   run:
     - python >=3.8
     - click >=8.0
