@@ -1,7 +1,7 @@
 About distributed-feedstock
 ===========================
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/release-2023.5.0-feedstock/blob/main/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/distributed-feedstock/blob/main/LICENSE.txt)
 
 Home: https://distributed.dask.org
 
@@ -24,8 +24,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/release-2023.5.0-feedstock?branchName=main">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=235&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/distributed-feedstock?branchName=main">
       </a>
     </td>
   </tr>
