@@ -1,4 +1,4 @@
-{% set version = "2023.8.1" %}
+{% set version = "2023.9.0" %}
 {% set version_split = version.split('.') %}
 {% set dask_core_version = version_split[:3] | join('.') if version_split | length == 4 else version %}
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/d/distributed/distributed-{{ version }}.tar.gz
-  sha256: 9eb00dfe08a75c9a450010869de0cbcada016c32bfee43e9b3a281787bdc9d61
+  sha256: df3024b021c1cc4aa007ea5ecafe30566cdba92ed7b9a6516c39ef6e7256b1a2
 
 build:
   number: 0
@@ -45,7 +45,7 @@ requirements:
     - toolz >=0.10.0
     - tornado >=6.0.4
     - urllib3 >=1.24.3
-    - zict >=2.2.0
+    - zict >=3.0.0
   run_constrained:
     - openssl !=1.1.1e
 
