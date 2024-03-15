@@ -153,6 +153,7 @@ Feedstock Maintainers
 =====================
 
 * [@charlesbluca](https://github.com/charlesbluca/)
+* [@fjetter](https://github.com/fjetter/)
 * [@jakirkham](https://github.com/jakirkham/)
 * [@jcrist](https://github.com/jcrist/)
 * [@jrbourbeau](https://github.com/jrbourbeau/)
