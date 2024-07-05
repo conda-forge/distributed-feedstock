@@ -1,4 +1,4 @@
-{% set version = "2024.6.2" %}
+{% set version = "2024.7.0" %}
 {% set version_split = version.split('.') %}
 {% set dask_core_version = version_split[:3] | join('.') if version_split | length == 4 else version %}
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/d/distributed/distributed-{{ version }}.tar.gz
-  sha256: bb43b766ada860b163956607c80f99871d823c645e326c2b5e35f020351adc55
+  sha256: c8a1a71e14e73b340abee443ece5c8119465f97bdb8a00ff6933b945840a0052
 
 build:
   number: 0
