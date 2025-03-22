@@ -1,4 +1,4 @@
-{% set version = "2025.2.0" %}
+{% set version = "2025.3.0" %}
 {% set version_split = version.split('.') %}
 {% set dask_core_version = version_split[:3] | join('.') if version_split | length == 4 else version %}
 {% set python_min = "3.10" %}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/distributed/distributed-{{ version }}.tar.gz
-  sha256: 84e8e3a9290db805250cd8f0b46416b8e3e32c8088ffa778d8a21ea1e2c1cac3
+  sha256: 84a68c91db2a106c752ca7845fba8cd92ad4f3545c0fb2d9b6dec0f44b225539
 
 build:
   number: 0
