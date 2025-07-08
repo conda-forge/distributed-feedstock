@@ -3,7 +3,7 @@ About distributed-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/distributed-feedstock/blob/main/LICENSE.txt)
 
-Home: https://distributed.dask.org
+Home: https://distributed.dask.org/
 
 Package license: BSD-3-Clause
 
@@ -11,12 +11,11 @@ Summary: Distributed scheduler for Dask
 
 Development: https://github.com/dask/distributed
 
-Documentation: https://distributed.dask.org
+Documentation: https://distributed.dask.org/
 
 Distributed is a lightweight library for distributed computing in Python.
 It extends both the concurrent.futures and dask APIs to moderate sized
 clusters.
-
 
 Current build status
 ====================
