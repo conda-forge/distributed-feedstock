@@ -161,7 +161,3 @@ Feedstock Maintainers
 * [@mrocklin](https://github.com/mrocklin/)
 * [@ogrisel](https://github.com/ogrisel/)
 * [@tomaugspurger](https://github.com/tomaugspurger/)
-
-
-<!-- dummy commit to enable rerendering -->
-
