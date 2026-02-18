@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   version: "2026.1.2"
-  version_split: ${{ version | split('.') }}
+  version_split: ${{ version | split('.') | list }}
   dask_core_version: ${{ version_split[:3] | join('.') if version_split | length == 4 else version }}
   python_min: 3.10
 
@@ -15,7 +15,7 @@ source:
   sha256: 8333fa7a34151ed3b4cf1a03136fe1f1799eca706a5e47bdb63022c8795d853b
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
   python:
