@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "2026.7.1"
+  version: "2026.8.0"
   version_split: ${{ version | split('.') | list }}
   dask_core_version: ${{ version_split[:3] | join('.') if version_split | length == 4 else version }}
   python_min: "3.10"
@@ -12,7 +12,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/distributed/distributed-${{ version }}.tar.gz
-  sha256: f7c48ab6961734874521574d75898466703bce93f22f0cff5872c7e4ac6425d4
+  sha256: 6f55008ecacf96ba945309fc12e680544764995e27bd63cc5e109afb97d7044d
 
 build:
   number: 0
